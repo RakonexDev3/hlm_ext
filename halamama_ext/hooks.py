@@ -5,6 +5,19 @@ app_description = "Halamama Customisations"
 app_email = "dev4@rakonex.com"
 app_license = "mit"
 
+# Fixtures
+# --------
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": {
+            "dt": "Purchase Invoice",
+            "fieldname": ["in", ["collection_date"]]
+        }
+    }
+]
+
 # Apps
 # ------------------
 
