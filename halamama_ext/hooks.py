@@ -11,11 +11,17 @@ app_license = "mit"
 fixtures = [
     {
         "doctype": "Custom Field",
-        "filters": {
-            "dt": "Purchase Invoice",
-            "fieldname": ["in", ["collection_date"]]
-        }
-    }
+        "filters": [
+            ["dt", "in", ["Purchase Invoice", "Employee"]],
+            ["fieldname", "in", ["collection_date", "restrict_warehouse"]],
+        ],
+    },
+    {
+        "doctype": "Role",
+        "filters": [
+            ["name", "in", ["Warehouse Manager"]]
+        ],
+    },
 ]
 
 # Apps
