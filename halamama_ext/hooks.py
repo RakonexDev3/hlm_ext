@@ -13,7 +13,7 @@ fixtures = [
         "doctype": "Custom Field",
         "filters": [
             ["dt", "in", ["Purchase Invoice", "Employee"]],
-            ["fieldname", "in", ["collection_date", "restrict_warehouse"]],
+            ["fieldname", "in", ["collection_date", "active_warehouse", "allow_access_to_all_warehouses"]],
         ],
     },
     {
