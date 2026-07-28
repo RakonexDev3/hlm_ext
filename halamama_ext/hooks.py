@@ -12,8 +12,18 @@ fixtures = [
     {
         "doctype": "Custom Field",
         "filters": [
-            ["dt", "in", ["Purchase Invoice", "Employee"]],
-            ["fieldname", "in", ["collection_date", "active_warehouse", "allow_access_to_all_warehouses"]],
+            ["dt", "in", ["Purchase Invoice", "Employee", "Warehouse"]],
+            [
+                "fieldname",
+                "in",
+                [
+                    "collection_date",
+                    "active_warehouse",
+                    "allow_access_to_all_warehouses",
+                    "is_sub_warehouse",
+                    "main_warehouse",
+                ],
+            ],
         ],
     },
     {
