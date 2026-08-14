@@ -32,7 +32,7 @@ fixtures = [
     {
         "doctype": "Role",
         "filters": [
-            ["name", "in", ["Warehouse Manager"]]
+            ["is_custom", "=", 1]
         ],
     },
 ]
