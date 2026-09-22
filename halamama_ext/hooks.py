@@ -41,6 +41,8 @@ fixtures = [
                     "packed_qty",
                     "installation_type",
                     "installation_level",
+                    "installation_section",
+                    "installation_team",
                 ],
             ],
         ],
