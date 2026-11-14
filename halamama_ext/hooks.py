@@ -87,6 +87,7 @@ fixtures = [
                     "package_weight",
                     "enable_product_sync",
                     "active_price_list",
+                    "external"
                 ],
             ],
         ],
